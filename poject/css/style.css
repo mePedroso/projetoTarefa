@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap');
+
+* {
+    margin: 0,5%;
+    padding: 0%;
+    font-family: 'League Spartan Bold', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh; /* (viewport height) */
+}
+
+.container_titulo {
+    height: 30%;
+    width: 50%;
+    margin: 2%;
+    /* Centraliza verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 4px solid #38B6FF;
+    border-radius: 20px;
+    background-color: #38B6FF;
+
+}
+
+.titulo_principal {
+    color: white;
+    font-size: 250%;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subtitulo_confirmacao {
+    color: #38B6FF;
+}
+
+.form_container {
+    text-align: center;
+}
+
+.texto_nome_da_tarefa_e_tarefa {
+    
+    color: #38B6FF;
+    font-size: 110%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_de_texto_tarefa {
+    height: 40px;
+    width: 320px;
+    border: 2px solid #38B6FF;
+    border-radius: 10px;
+}
+
+.botao_de_confirmacao {
+    padding: 5px;
+    color: #38B6FF;
+    font-size: 125%;
+    border: 2px solid #38B6FF;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.container_botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.link_atualizar_action {
+    padding: 2px;
+    text-decoration: none;
+    color: #38B6FF;
+    font-size: 100%;
+    border: 2px solid #38B6FF;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.link_cadastrar, .link_atualizar, .link_excluir {
+    text-align: center;
+    padding: 5px;
+    color: #38B6FF;
+    font-size: 110%;
+    border: 2px solid #38B6FF;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.phpS {
+    color: #38B6FF;
+}
